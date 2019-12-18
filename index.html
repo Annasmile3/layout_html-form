@@ -23,7 +23,7 @@
         </label>
         <label class="labels">
           How old are You?
-          <input class="age" type="number" name="age" value="12" autocomplete="off">
+          <input type="number" name="age" value="12" min="10" max="100" autocomplete="off">
         </label>
         <label class="labels">
           Full date of birth:
@@ -50,7 +50,7 @@
       <label class="labels">
         Do you love cats?
         <input type="radio" name="cats">Yes
-        <input type="radio" name="cats">No
+        <label><input type="radio" name="cats">No</label>
       </label>
         <label class="labels">
           What is your favorite color?
@@ -81,7 +81,7 @@
           </label>
           <label class="labels">
             Would you recommend us?
-            <select name="recommendation" size="1">
+            <select name="recommendation">
                 <option value="yes">yes</option>
                 <option value="no">no</option>
               </select>
